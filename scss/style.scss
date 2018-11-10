@@ -1,4 +1,19 @@
 @import "normalize";
+@import "home";
+@import "home";
+@import "guide";
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../webfont/montserrat-bold-webfont.woff2') format('woff2'), url('../webfont/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../webfont/montserrat-regular-webfont.woff2') format('woff2'), url('../webfont/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     box-sizing: border-box;
 }
@@ -9,96 +24,94 @@
     margin-right: auto;
     padding: 15px;
 }
-.home {
-    background-image: url('../Polind-assets/background.png');
-    background-position: center;
-    background-size: cover;
-    &__header {
-        display: flex;
-        align-items: center;
+.journey {
+    text-align: center;
+    bottom: 200px;
+    position: relative;
+    background: #fafafc;
+    &__h1 {
+        margin-top: 0;
+        color: #606F81;
+        font-family: 'montserratbold';
+        font-size: 30px;
     }
-    &__logo {
-        margin: 0 auto;
-    }
-    &__logo:hover {
-        opacity: 0.67;
-    }
-    &__icon {
-        width: 100%;
-        margin-top: 20px;
+    &__input {
+        cursor: pointer;
+        width: 487px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-family: 'montserratbold';
+        font-size: 18px;
+        padding: 9px;
+        color: #f4dc42;
+        background-image: url('../Polind-assets/search.png');
+        background-repeat: no-repeat;
+        background-position: 495px;
+        padding-right: 20px;
+        &::placeholder {
+            color: #eaecee;
+            font-family: 'montserratregular';
+        }
     }
     &__nav {
-        margin-left: auto;
+        font-size: 14px;
+        margin: 15px;
+        font-family: 'montserratbold';
+        padding: 20px;
+        display: flex;
+        justify-content: center;
     }
     &__a {
-        color: #fff;
         text-decoration: none;
-        margin-right: 20px;
-        font-size: 18px;
-        font-family: 'Montserrat';
+        color: #8d97a5;
+        border: 2px solid #eaedf2;
+        border-radius: 20px;
+        padding: 7px;
+        margin: 5px;
     }
     &__a:hover {
-        color: #f4dc42;
+        background: #ffc74a;
+        color: #fff;
     }
-    &__form {}
-    &__search {
-        background: none;
-        outline: none;
-        background-image: url('../Polind-assets/Search.png');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: 15px;
-        padding-left: 20px;
-        border: none;
-        color: #f4dc42;
-        cursor: pointer;
+    &__home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     &__box {
-        text-align: center;
-        display: block;
-        margin-top: 200px;
-        font-family: 'Montserrat';
+        background: #FFF;
+        border-radius: 7px;
+        margin: 10px;
+        padding: 7px;
     }
-    &__h2 {
-        font-size: 92px;
-        color: #FFF;
-        line-height: 92px;
+    &__imgs {
+        width: 100%;
+    }
+    &__h4 {
+        color: #606f81;
+        font-family: 'montserratregular';
+        font-size: 30px;
         margin-bottom: 0;
     }
-    &__h1 {
-        font-size: 92px;
-        line-height: 92px;
-        margin-top: 0;
-        color: #ed6950;
-        margin-bottom: 0;
-    }
-    &__first-p {
-        font-size: 19px;
-        line-height: 97px;
-        margin-top: 0;
-        color: #5b5b5a;
+    &__p {
+        color: #b6bcc3;
+        font-family: 'montserratregular';
+        font-size: 14px;
     }
     &__button {
-        width: 231px;
-        padding: 13px;
+        color: #bdc8d9;
         font-size: 14px;
-        color: #fff;
+        font-family: 'montserratbold';
         outline: none;
-        background: #ffc74a;
         border: none;
+        padding: 10px;
+        width: 166px;
         border-radius: 20px;
-        border-bottom: 3px solid #ed6950;
+        background: #fafafc;
     }
     &__button:hover {
-        background: #fff;
-        color: #b98000;
-    }
-    &__second-p {
-        text-align: center;
-        margin-top: 271px;
-        color: #fff;
-        font-size: 19px;
-        font-family: 'Montserrat';
-        line-height: 97px;
+        background: #FFC74A;
+        color: #cd951a;
     }
 }
