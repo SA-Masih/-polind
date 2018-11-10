@@ -376,10 +376,6 @@ th {
   background-position: center;
   background-size: cover; }
   .home__header {
-    background-image: -webkit-gradient(linear, left top, right top, from(#4fc1e9), to(#4a89dc)) !important;
-    background-image: -webkit-linear-gradient(left, #4fc1e9, #4a89dc) !important;
-    background-image: -o-linear-gradient(left, #4fc1e9, #4a89dc) !important;
-    background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -485,11 +481,7 @@ th {
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-line-pack: center;
-    align-content: center;
-    background-image: -webkit-gradient(linear, left top, right top, from(#4fc1e9), to(#4a89dc)) !important;
-    background-image: -webkit-linear-gradient(left, #4fc1e9, #4a89dc) !important;
-    background-image: -o-linear-gradient(left, #4fc1e9, #4a89dc) !important;
-    background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important; }
+    align-content: center; }
   .home__logo {
     padding-right: 90px; }
   .home__nav {
@@ -505,10 +497,6 @@ th {
   background-position: center;
   background-size: cover; }
   .home__header {
-    background-image: -webkit-gradient(linear, left top, right top, from(#4fc1e9), to(#4a89dc)) !important;
-    background-image: -webkit-linear-gradient(left, #4fc1e9, #4a89dc) !important;
-    background-image: -o-linear-gradient(left, #4fc1e9, #4a89dc) !important;
-    background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -614,11 +602,7 @@ th {
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-line-pack: center;
-    align-content: center;
-    background-image: -webkit-gradient(linear, left top, right top, from(#4fc1e9), to(#4a89dc)) !important;
-    background-image: -webkit-linear-gradient(left, #4fc1e9, #4a89dc) !important;
-    background-image: -o-linear-gradient(left, #4fc1e9, #4a89dc) !important;
-    background-image: linear-gradient(90deg, #4fc1e9, #4a89dc) !important; }
+    align-content: center; }
   .home__logo {
     padding-right: 90px; }
   .home__nav {
@@ -726,34 +710,11 @@ th {
     right: 0;
     height: 100%; } }
 
-@font-face {
-  font-family: 'montserratbold';
-  src: url("../webfont/montserrat-bold-webfont.woff2") format("woff2"), url("../webfont/montserrat-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'montserratregular';
-  src: url("../webfont/montserrat-regular-webfont.woff2") format("woff2"), url("../webfont/montserrat-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px; }
-
 .journey {
   text-align: center;
-  bottom: 200px;
+  background: #fafafc;
   position: relative;
-  background: #fafafc; }
+  bottom: 190px; }
   .journey__h1 {
     margin-top: 0;
     color: #606F81;
@@ -844,3 +805,104 @@ th {
   .journey__button:hover {
     background: #FFC74A;
     color: #cd951a; }
+
+.hotels {
+  background-image: url("../Polind-assets/good.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 200px; }
+  .hotels__home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 15px; }
+  .hotels__h2 {
+    text-align: center;
+    color: #606f81;
+    font-size: 30px;
+    font-family: 'montserratbold';
+    margin-top: 63px;
+    margin-bottom: 69px; }
+  .hotels__h1 {
+    color: #f8c759;
+    font-family: 'montserratbold';
+    font-size: 36px; }
+  .hotels__p {
+    font-size: 14px;
+    color: #606f81;
+    font-family: 'montserratregular';
+    line-height: 30px; }
+  .hotels__button {
+    font-family: 'montserratbold';
+    background: #ffc74a;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: #b98000;
+    font-size: 14px;
+    border-bottom: 4px solid #b98000;
+    width: 211px; }
+  .hotels__button:hover {
+    background: #FFF; }
+  .hotels__square {
+    border: 10px solid #ffc74a;
+    margin-bottom: 100px; }
+  .hotels__box {
+    margin: 15px; }
+  .hotels__img {
+    position: relative;
+    bottom: 40px;
+    right: 20px; }
+
+@media screen and (max-width: 1456px) {
+  .hotels__home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 15px;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap; }
+  .hotels__img {
+    width: 100%; }
+  .hotels__p {
+    max-width: 600px; }
+  .hotels__button {
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 457px) {
+  .hotels__h1 {
+    text-align: center; } }
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url("../webfont/montserrat-bold-webfont.woff2") format("woff2"), url("../webfont/montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../webfont/montserrat-regular-webfont.woff2") format("woff2"), url("../webfont/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: #fafafc; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px; }

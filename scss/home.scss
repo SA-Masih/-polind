@@ -3,7 +3,6 @@
     background-position: center;
     background-size: cover;
     &__header {
-        background-image: linear-gradient(90deg, #4fc1e9, #4a89dc)!important;
         display: flex;
         align-items: center;
     }
@@ -119,7 +118,6 @@
             display: flex;
             flex-direction: column;
             align-content: center;
-            background-image: linear-gradient(90deg, #4fc1e9, #4a89dc)!important;
         }
         &__logo {
             padding-right: 90px;

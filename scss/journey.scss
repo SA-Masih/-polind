@@ -1,0 +1,92 @@
+.journey {
+    text-align: center;
+    background: #fafafc;
+   position: relative;
+   bottom:190px;
+    &__h1 {
+        margin-top: 0;
+        color: #606F81;
+        font-family: 'montserratbold';
+        font-size: 30px;
+    }
+    &__input {
+        cursor: pointer;
+        width: 487px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-family: 'montserratbold';
+        font-size: 18px;
+        padding: 9px;
+        color: #f4dc42;
+        background-image: url('../Polind-assets/search.png');
+        background-repeat: no-repeat;
+        background-position: 495px;
+        padding-right: 20px;
+        &::placeholder {
+            color: #eaecee;
+            font-family: 'montserratregular';
+        }
+    }
+    &__nav {
+        font-size: 14px;
+        margin: 15px;
+        font-family: 'montserratbold';
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    &__a {
+        text-decoration: none;
+        color: #8d97a5;
+        border: 2px solid #eaedf2;
+        border-radius: 20px;
+        padding: 7px;
+        margin: 5px;
+    }
+    &__a:hover {
+        background: #ffc74a;
+        color: #fff;
+    }
+    &__home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__box {
+        background: #FFF;
+        border-radius: 7px;
+        margin: 10px;
+        padding: 7px;
+    }
+    &__imgs {
+        width: 100%;
+    }
+    &__h4 {
+        color: #606f81;
+        font-family: 'montserratregular';
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    &__p {
+        color: #b6bcc3;
+        font-family: 'montserratregular';
+        font-size: 14px;
+    }
+    &__button {
+        color: #bdc8d9;
+        font-size: 14px;
+        font-family: 'montserratbold';
+        outline: none;
+        border: none;
+        padding: 10px;
+        width: 166px;
+        border-radius: 20px;
+        background: #fafafc;
+        
+    }
+    &__button:hover {
+        background: #FFC74A;
+        color: #cd951a;
+    }
+}
