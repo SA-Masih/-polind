@@ -806,6 +806,29 @@ th {
     background: #FFC74A;
     color: #cd951a; }
 
+@media screen and (max-width: 559px) {
+  .journey__input {
+    cursor: pointer;
+    width: 243px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: 'montserratbold';
+    font-size: 18px;
+    padding: 9px;
+    color: #f4dc42;
+    background-image: url("../Polind-assets/search.png");
+    background-repeat: no-repeat;
+    background-position: 240px;
+    padding-right: 20px; }
+  .journey__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
 .hotels {
   background-image: url("../Polind-assets/good.png");
   background-position: right;
@@ -881,32 +904,6 @@ th {
   .hotels__h1 {
     text-align: center; } }
 
-@font-face {
-  font-family: 'montserratbold';
-  src: url("../webfont/montserrat-bold-webfont.woff2") format("woff2"), url("../webfont/montserrat-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'montserratregular';
-  src: url("../webfont/montserrat-regular-webfont.woff2") format("woff2"), url("../webfont/montserrat-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-body {
-  background: #fafafc; }
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px; }
-
 .travels {
   background-image: url("../Polind-assets/background3.png");
   background-position: center;
@@ -944,3 +941,45 @@ body {
     display: inline-block;
     font-family: 'montserratregular';
     color: #FFC74A; }
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url("../webfont/montserrat-bold-webfont.woff2") format("woff2"), url("../webfont/montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../webfont/montserrat-regular-webfont.woff2") format("woff2"), url("../webfont/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: #fafafc; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px; }
+
+.footer {
+  background-image: url("../Polind-assets/POLIND.png");
+  background-position: center;
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  margin-top: -200px;
+  padding-bottom: 200px; }
+  .footer__box {
+    text-align: center; }
+  .footer__h5 {
+    color: #606f81;
+    font-family: 'montserratbold';
+    font-size: 24px; }

@@ -1,8 +1,8 @@
 .journey {
     text-align: center;
     background: #fafafc;
-   position: relative;
-   bottom:190px;
+    position: relative;
+    bottom: 190px;
     &__h1 {
         margin-top: 0;
         color: #606F81;
@@ -83,10 +83,34 @@
         width: 166px;
         border-radius: 20px;
         background: #fafafc;
-        
     }
     &__button:hover {
         background: #FFC74A;
         color: #cd951a;
+    }
+}
+@media screen and (max-width:559px) {
+    .journey {
+        &__input {
+            cursor: pointer;
+            width: 243px;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            font-family: 'montserratbold';
+            font-size: 18px;
+            padding: 9px;
+            color: #f4dc42;
+            background-image: url('../Polind-assets/search.png');
+            background-repeat: no-repeat;
+            background-position: 240px;
+            padding-right: 20px;
+        }
+        &__nav {
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
     }
 }

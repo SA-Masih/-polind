@@ -1,0 +1,37 @@
+.travels {
+  background-image: url("../Polind-assets/background3.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  bottom: 214px; }
+  .travels__box {
+    text-align: center; }
+  .travels__h1 {
+    font-family: 'montserratbold';
+    color: #fff;
+    font-size: 92px;
+    line-height: 92px; }
+  .travels__button {
+    padding: 15px;
+    width: 151px;
+    border-radius: 20px;
+    font-family: 'montserratbold';
+    font-size: 14px;
+    color: #cd951a;
+    background: #ffc74a;
+    outline: none;
+    border: none;
+    display: block;
+    margin: 0 auto; }
+  .travels__button:hover {
+    background: #cd951a;
+    color: #FFF; }
+  .travels__p {
+    color: #FFF;
+    font-family: 'montserratregular';
+    display: inline-block;
+    margin-right: 4px; }
+  .travels__a {
+    display: inline-block;
+    font-family: 'montserratregular';
+    color: #FFC74A; }
