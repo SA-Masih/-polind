@@ -4,7 +4,6 @@
 @import "guide";
 @import "journey";
 @import "hotels";
-
 @font-face {
     font-family: 'montserratbold';
     src: url('../webfont/montserrat-bold-webfont.woff2') format('woff2'), url('../webfont/montserrat-bold-webfont.woff') format('woff');
@@ -29,4 +28,48 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+}
+.travels {
+    background-image: url('../Polind-assets/background3.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    bottom: 214px;
+    &__box {
+        text-align: center;
+    }
+    &__h1 {
+        font-family: 'montserratbold';
+        color: #fff;
+        font-size: 92px;
+        line-height: 92px;
+    }
+    &__button {
+        padding: 15px;
+        width: 151px;
+        border-radius: 20px;
+        font-family: 'montserratbold';
+        font-size: 14px;
+        color: #cd951a;
+        background: #ffc74a;
+        outline: none;
+        border: none;
+        display: block;
+        margin: 0 auto;
+    }
+    &__button:hover {
+        background: #cd951a;
+        color: #FFF;
+    }
+    &__p {
+        color: #FFF;
+        font-family: 'montserratregular';
+        display: inline-block;
+        margin-right: 4px;
+    }
+    &__a {
+        display: inline-block;
+        font-family: 'montserratregular';
+        color: #FFC74A;
+    }
 }
