@@ -42,3 +42,13 @@
         color: #FFC74A;
     }
 }
+@media screen and (max-width:500px) {
+    .travels {
+        &__h1 {
+            font-family: 'montserratbold';
+            color: #fff;
+            font-size: 62px;
+            line-height: 92px;
+        }
+    }
+}
