@@ -1059,6 +1059,25 @@ th {
     font-family: 'montserratbold';
     font-size: 24px; }
 
+@media screen and (max-width: 600px) {
+  .footer {
+    background-image: url("../Polind-assets/POLIND.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .footer__box {
+      background: none; }
+    .footer__h5 {
+      color: #606f81;
+      font-family: 'montserratbold';
+      font-size: 24px; } }
+
+@media screen and (max-width: 500px) {
+  .footer__h5 {
+    color: #606f81;
+    font-family: 'montserratbold';
+    font-size: 14px; } }
+
 @font-face {
   font-family: 'montserratbold';
   src: url("../webfont/montserrat-bold-webfont.woff2") format("woff2"), url("../webfont/montserrat-bold-webfont.woff") format("woff");
