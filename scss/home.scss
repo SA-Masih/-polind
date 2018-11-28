@@ -18,6 +18,11 @@
             font-size: 30px;
             color: #fff;
             font-family: 'montserratbold';
+            animation-name: bounceIn;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
         }
     }
     &__logo:hover {
@@ -176,21 +181,53 @@
             width: 100%;
             order: 3;
             margin-top: 30px;
+            background: #fff;
         }
         &__a {
-            display: block;
             padding: 15px;
-            border-bottom: 1px solid #72767c;
-            border-top: 1px solid #72767c;
             text-align: center;
             width: 100%;
             display: block;
+            color: black;
         }
         &__a:hover {
-            background: rgba(43, 63, 94, 0.48);
+            background: rgb(237, 105, 80);
         }
         #menue:checked+&__nav {
             display: block;
         }
+    }
+}
+@-webkit-keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9);
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+    80% {
+        -webkit-transform: scale3d(0.97, 0.97, 0.97);
+        transform: scale3d(0.97, 0.97, 0.97);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
 }
