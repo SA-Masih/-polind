@@ -1,0 +1,22 @@
+{
+  "name": "polind",
+  "version": "1.0.0",
+  "description": "https://sa-masih.github.io/Polind/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SA-Masih/-polind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SA-Masih/-polind/issues"
+  },
+  "homepage": "https://github.com/SA-Masih/-polind#readme",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
