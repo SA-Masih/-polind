@@ -374,7 +374,8 @@ th {
 .home {
   background-image: url("../Polind-assets/background.png");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-color: #f4dc42; }
   .home__header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -578,7 +579,8 @@ th {
 .home {
   background-image: url("../Polind-assets/background.png");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-color: #f4dc42; }
   .home__header {
     display: -webkit-box;
     display: -ms-flexbox;
